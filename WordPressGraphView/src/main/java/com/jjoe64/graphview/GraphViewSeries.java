@@ -32,6 +32,7 @@ public class GraphViewSeries {
 	 */
 	static public class GraphViewSeriesStyle {
 		public int color = 0xff0077cc;
+		public int outerColor = 0x00ffffff;
         public int highlightColor = 0xff0077cc;
         public int outerhighlightColor = 0x00ffffff;
 		public int thickness = 3;
