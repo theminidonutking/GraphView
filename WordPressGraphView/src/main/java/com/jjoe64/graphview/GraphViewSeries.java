@@ -95,7 +95,7 @@ public class GraphViewSeries {
 	/**
 	 * add one data to current data
 	 * @param value the new data to append
-	 * @param scrollToEnd true => graphview will scroll to the end (maxX)
+	 * @param scrollToEnd true: graphview will scroll to the end (maxX)
 	 * @deprecated please use {@link #appendData(GraphViewDataInterface, boolean, int)} to avoid memory overflow
 	 */
 	@Deprecated
@@ -116,7 +116,7 @@ public class GraphViewSeries {
 	/**
 	 * add one data to current data
 	 * @param value the new data to append
-	 * @param scrollToEnd true => graphview will scroll to the end (maxX)
+	 * @param scrollToEnd true: graphview will scroll to the end (maxX)
 	 * @param maxDataCount if max data count is reached, the oldest data value will be lost
 	 */
 	public void appendData(GraphViewDataInterface value, boolean scrollToEnd, int maxDataCount) {
