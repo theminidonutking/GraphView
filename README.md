@@ -48,3 +48,8 @@ See GraphView-Demos for examples.
 <a href="https://github.com/jjoe64/GraphView-Demos">https://github.com/jjoe64/GraphView-Demos<br/>
 <a href="http://www.jjoe64.com/p/graphview-library.html">View GraphView page http://www.jjoe64.com/p/graphview-library.html</a>
 
+<h2>Publish it to bintray</h2>
+
+```shell
+$ ./gradlew assemble publishToMavenLocal bintrayUpload -PbintrayUser=FIXME -PbintrayKey=FIXME -PdryRun=false
+```

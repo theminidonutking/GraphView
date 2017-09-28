@@ -19,10 +19,6 @@
 
 package com.jjoe64.graphview;
 
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -40,9 +36,15 @@ import android.widget.LinearLayout;
 import com.jjoe64.graphview.GraphViewSeries.GraphViewSeriesStyle;
 import com.jjoe64.graphview.compatible.ScaleGestureDetector;
 
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * GraphView is a Android View for creating zoomable and scrollable graphs.
- * This is the abstract base class for all graphs. Extend this class and implement {@link #drawSeries(Canvas, GraphViewDataInterface[], float, float, float, double, double, double, double, float)} to display a custom graph.
+ * This is the abstract base class for all graphs. Extend this class and implement {@link #drawSeries(Canvas,
+ * GraphViewDataInterface[], float, float, float, double, double, double, double, float, GraphViewSeriesStyle)}
+ * to display a custom graph.
  * Use {@link LineGraphView} for creating a line chart.
  *
  * @author jjoe64 - jonas gehring - http://www.jjoe64.com
